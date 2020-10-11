@@ -1,10 +1,11 @@
 #include <unistd.h>
 #include <stdio.h>
+#include "libft.h"
 
 int	main(int argc, char **argv)
 {
-	printf("%d\n",argc);
-	for (int i = 1; i < argc; i++)
-		printf("%s\n",argv[i]);
+    char* str = ft_strnew(5);
+
+	printf("%d\n",ft_strlen("hello"));
 	return (0);
 }
